@@ -10,8 +10,8 @@ terraform {
 }
 
 
-provider "aws" {
-  # profile = "default"
-  shared_credentials_files = ["/home/keya/.aws/credentials"]
-  region  = "us-east-1"
-}
+#provider "aws" {
+#  # profile = "default"
+#  shared_credentials_files = ["/home/keya/.aws/credentials"]
+#  region  = "us-east-1"
+#}
