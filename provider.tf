@@ -12,5 +12,6 @@ terraform {
 
 provider "aws" {
   # profile = "default"
+  shared_credentials_file = "/home/keya/.aws/credentials"
   region  = "us-east-1"
 }
