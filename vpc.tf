@@ -103,7 +103,7 @@ resource "aws_subnet" "privsub_1" {
 
 
 #security group
-resource "aws_security_group" "vpc-ssh" {
+resource "aws_security_group" "vpc_ssh" {
   name        = "vpc-ssh"
   description = "VPC SSH"
 
