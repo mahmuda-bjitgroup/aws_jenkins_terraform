@@ -3,7 +3,7 @@ resource "aws_instance" "tf_ec2" {
   instance_type = "t2.micro"
 #   key_name  = "tf-key"
   subnet_id = aws_subnet.privsub_1.id
-  vpc_security_group_ids = [aws_security_group.vpc-ssh.id]
+  vpc_security_group_ids = [aws_security_group.vpc_ssh.id]
   availability_zone      = "us-east-1a"
 #   user_data              = file("apache-install.sh")
   # tags                   = var.ec2_instance_tags
